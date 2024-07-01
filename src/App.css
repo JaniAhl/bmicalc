@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  width: 75vh;
+}
+
+.heightcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+  
+.heightcontainer span {
+    margin-right: 10px; 
+}
+  
+.heightcontainer input {
+    line-height: 1; 
+}
+
+.weightcontainer {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.weightcontainer span {
+  margin-right: 19px; 
+}
+
+.weightcontainer input {
+  line-height: 1;
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
